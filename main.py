@@ -39,9 +39,9 @@ def write_result_to_file(result):
 
 # Create the agent
 researcher = Agent(
-    role='Researcher',  # Think of this as the job title
+    role='Sales Researcher',  # Think of this as the job title
     goal='Research the topic',  # This is the goal that the agent is trying to achieve
-    backstory='As an expert in the field of IT Researcher, you will research the {topic} keywords and provide the necessary information',
+    backstory='An expert in online research as part of the sales team in a custom software compnay focused on the insurance industry. We create custom software for insurance companies trying to get more control of their data and analytics. I use the internet to gather relevant, real and actionable leads on {topic}.',
     # This is the backstory of the agent, this helps the agent to understand the context of the task
     max_iter=3,  # This is the maximum number of iterations that the agent will use to generate the output
     max_rpm=100,  # This is the maximum number of requests per minute that the agent can make to the language model
@@ -56,9 +56,9 @@ researcher = Agent(
 
 # Create the task
 research_task = Task(
-    description='Research the topic',  # This is a description of the task
+    description='I Research the topic while looking to fit our custom software solutions with the needs and IT budget allocation of our clients.',  # This is a description of the task
     agent=researcher,  # This is the agent that will be assigned the task
-    expected_output='A list consist of given fields: Company name, Website link, Snippet of text where the keywords are found, Specified budget(if there is) ',
+    expected_output='A list the following fields: Company name, website link, Snippet of text where the keywords are found, Specified budget the company has allowed.',
     # This is the expected output of the taskafter its completion
     verbose=True,  # This is a flag that determines if the task will print more output to the console
     output_file='research_result.txt'
@@ -82,6 +82,6 @@ crew = Crew(
 # Starting start the crew
 result = crew.kickoff(
     inputs={
-        'topic': 'IT Budget, IT investment, IT Spending, Insurance software, Insurer IT, IT Budget allocation'})
+        'topic': 'Comapnies who have budgets to allocate to expanging their IT footprint with keywords: IT Budget, IT investment, IT Spending, Insurance software, Insurer IT, IT Budget allocation'})
 # Change the topic to whatever you want to research
 print(result)
