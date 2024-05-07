@@ -1,0 +1,12 @@
+* "Insurance Software Solutions" (https://www.insurancesoftware.net/)
+Company name: Insurance Software Solutions
+Website link: https://www.insurancesoftware.net/
+Snippet of text where the keywords are found: "Our insurance software solutions help insurers improve their operations, increase efficiency and reduce costs. From policy administration to claims processing and analytics, we provide the technology and expertise to streamline your entire workflow."
+* "IT Investment for Insurance Companies" (https://www.insurancejournal.com/news/technology/2018/09/25/how-insurers-are-spending-and-investing-it-20180925.html)
+Company name: Various Insurance Companies
+Website link: https://www.insurancejournal.com/news/technology/2018/09/25/how-insurers-are-spending-and-investing-it-20180925.html
+Snippet of text where the keywords are found: "The insurance industry has become increasingly dependent on technology and data as it seeks to improve operational efficiency, reduce costs, gain insight into customer behavior and meet changing regulatory requirements."
+* "IT Budget Allocation in Insurance" (https://www.insurancetechnology.com/content_120756)
+Company name: Various Insurance Companies
+Website link: https://www.insurancetechnology.com/content_120756
+Snippet of text where the keywords are found: "IT budget allocation is a key decision for insurance companies seeking to balance their technology investments with business needs. CIOs must assess which technologies will have the most significant impact on operations and allocate funds accordingly."
